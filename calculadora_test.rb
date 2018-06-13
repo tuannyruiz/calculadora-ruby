@@ -13,7 +13,6 @@ class CalculadoraTest < MiniTest::Test
   end
 
   def test_subtracao
-    skip('apague essa linha depois que implementar soma')
     calc = Calculadora.new
 
     assert_equal 30, calc.subtracao(30, 0)
@@ -22,7 +21,6 @@ class CalculadoraTest < MiniTest::Test
   end
 
   def test_multiplicacao
-    skip('apague essa linha depois de implementar subtracao')
     calc = Calculadora.new
 
     assert_equal 30, calc.multiplicacao(30, 1)
@@ -31,7 +29,6 @@ class CalculadoraTest < MiniTest::Test
   end
 
   def test_divisao
-    skip('apague essa linha depois de implementar multiplicacao')
     calc = Calculadora.new
 
     assert_equal 30, calc.divisao(60, 2)
@@ -41,7 +38,6 @@ class CalculadoraTest < MiniTest::Test
   end
 
   def test_calcular
-    skip('apague essa linha depois de implementar divisao')
     calc = Calculadora.new
 
     assert_equal 30, calc.calcular(60, 2, :/)
