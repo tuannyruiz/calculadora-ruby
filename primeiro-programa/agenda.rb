@@ -1,1 +1,0 @@
-puts "Entre com o seu nome"
